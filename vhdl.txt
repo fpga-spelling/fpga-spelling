@@ -3,4 +3,3 @@ inout
 sfixed
 ufixed
 ulogic
-vhdl
