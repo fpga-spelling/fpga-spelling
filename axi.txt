@@ -24,6 +24,7 @@ awready
 awregion
 awsize
 awvalid
+axlen
 bready
 bresp
 bufferable
