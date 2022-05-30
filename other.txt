@@ -1,0 +1,12 @@
+barebone
+behavedness
+choosable
+commited
+dockerhub
+dont
+pylint
+pytest
+pythonpath
+rankdir
+scipy
+tomlkit

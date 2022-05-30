@@ -1,0 +1,8 @@
+tdata
+tdest
+tkeep
+tlast
+tready
+tstrb
+tuser
+tvalid

@@ -1,0 +1,10 @@
+ghdl
+gitter
+lukas
+mcode
+modelsim
+osvvm
+petalinux
+truestream
+tsfpga
+vunit

@@ -1,0 +1,3 @@
+mdio
+pullup
+leds
