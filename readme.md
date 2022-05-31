@@ -89,6 +89,13 @@ add the following to your settings JSON (workspace or user settings):
             "path": "${workspaceFolder}/../../fpga-spelling/fpga-spelling/xilinx.txt"
         },
     },
+    "cSpell.enableFiletypes": [
+        "json",
+        "md",
+        "rst",
+        "toml",
+        "vhdl"
+    ],
 },
 ```
 
@@ -97,6 +104,8 @@ Note that you might have to modify the paths depending on your repository/worksp
 At this point are free to exclude dictionaries.
 If you for example don't want the VHDL or "other" terms,
 then those entries can simply be removed from the JSON.
+
+Also the list of file types that should be checked can be modified freely.
 
 
 
