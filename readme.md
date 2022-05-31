@@ -1,92 +1,115 @@
-# Fpga Dictionary
+# FPGA spell checking dictionary
 
 Dictionary with common FPGA terms, to be used with spell checking software.
 
-## Getting started
 
-To make it easy for you to get started with GitLab, here's a list of recommended next steps.
 
-Already a pro? Just edit this README.md and make it your own. Want to make it easy? [Use the template at the bottom](#editing-this-readme)!
+## Contents
 
-## Add your files
+### axi.txt
 
-- [ ] [Create](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#create-a-file) or [upload](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#upload-a-file) files
-- [ ] [Add files using the command line](https://docs.gitlab.com/ee/gitlab-basics/add-file.html#add-a-file-using-the-command-line) or push an existing Git repository with the following command:
+Contains terms from the AMBA AXI standard.
+For example `RVALID`, `ARLOCK`, etc.
 
-```
-cd existing_repo
-git remote add origin https://gitlab.com/LukasVik/fpga_dictionary.git
-git branch -M main
-git push -uf origin main
-```
+### axi_stream.txt
 
-## Integrate with your tools
+Contains terms from the AMBA AXI-Stream standard.
+For example `TVALID`, `TDATA`, etc.
 
-- [ ] [Set up project integrations](https://gitlab.com/LukasVik/fpga_dictionary/-/settings/integrations)
+### common.txt
 
-## Collaborate with your team
+Contains common FPGA terms.
+For example `backpressure`, `FIFOs`, etc.
 
-- [ ] [Invite team members and collaborators](https://docs.gitlab.com/ee/user/project/members/)
-- [ ] [Create a new merge request](https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html)
-- [ ] [Automatically close issues from merge requests](https://docs.gitlab.com/ee/user/project/issues/managing_issues.html#closing-issues-automatically)
-- [ ] [Enable merge request approvals](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/)
-- [ ] [Automatically merge when pipeline succeeds](https://docs.gitlab.com/ee/user/project/merge_requests/merge_when_pipeline_succeeds.html)
+### electrical.txt
 
-## Test and Deploy
+Contains some electrical engineering terms that are commonly encountered when doing
+FPGA development. For example `LEDs`, `pullup`, etc.
 
-Use the built-in continuous integration in GitLab.
+### other.txt
 
-- [ ] [Get started with GitLab CI/CD](https://docs.gitlab.com/ee/ci/quick_start/index.html)
-- [ ] [Analyze your code for known vulnerabilities with Static Application Security Testing(SAST)](https://docs.gitlab.com/ee/user/application_security/sast/)
-- [ ] [Deploy to Kubernetes, Amazon EC2, or Amazon ECS using Auto Deploy](https://docs.gitlab.com/ee/topics/autodevops/requirements.html)
-- [ ] [Use pull-based deployments for improved Kubernetes management](https://docs.gitlab.com/ee/user/clusters/agent/)
-- [ ] [Set up protected environments](https://docs.gitlab.com/ee/ci/environments/protected_environments.html)
+Contains some other terms that are not strictly FPGA related, but are commonly encountered in
+FPGA projects. For example `pylint`, `barebone`, etc.
 
-***
+### tools.txt
 
-# Editing this README
+Contains some terms related to FPGA tools.
+For example `Modelsim`, `VUnit`, etc.
 
-When you're ready to make this README your own, just edit this file and use the handy template below (or feel free to structure it however you want - this is just a starting point!).  Thank you to [makeareadme.com](https://www.makeareadme.com/) for this template.
+### vhdl.txt
 
-## Suggestions for a good README
-Every project is different, so consider which of these sections apply to yours. The sections used in the template are suggestions for most open source projects. Also keep in mind that while a README can be too long and detailed, too long is better than too short. If you think your README is too long, consider utilizing another form of documentation rather than cutting out information.
+Contains terms related to the VHDL language.
+For example `inout`, `sfixed`, etc.
 
-## Name
-Choose a self-explaining name for your project.
+### xilinx.txt
 
-## Description
-Let people know what your project can do specifically. Provide context and add a link to any reference visitors might be unfamiliar with. A list of Features or a Background subsection can also be added here. If there are alternatives to your project, this is a good place to list differentiating factors.
+Contains terms related to Xilinx technology.
+For example `Vivado`, `URAM`, etc.
 
-## Badges
-On some READMEs, you may see small images that convey metadata, such as whether or not all the tests are passing for the project. You can use Shields to add some to your README. Many services also have instructions for adding a badge.
 
-## Visuals
-Depending on what you are making, it can be a good idea to include screenshots or even a video (you'll frequently see GIFs rather than actual videos). Tools like ttygif can help, but check out Asciinema for a more sophisticated method.
-
-## Installation
-Within a particular ecosystem, there may be a common way of installing things, such as using Yarn, NuGet, or Homebrew. However, consider the possibility that whoever is reading your README is a novice and would like more guidance. Listing specific steps helps remove ambiguity and gets people to using your project as quickly as possible. If it only runs in a specific context like a particular programming language version or operating system or has dependencies that have to be installed manually, also add a Requirements subsection.
 
 ## Usage
-Use examples liberally, and show the expected output if you can. It's helpful to have inline the smallest example of usage that you can demonstrate, while providing links to more sophisticated examples if they are too long to reasonably include in the README.
 
-## Support
-Tell people where they can go to for help. It can be any combination of an issue tracker, a chat room, an email address, etc.
+This project is intended for use with the [CSpell spell checker for code](https://cspell.org/),
+specifically its
+[Visual Studio Code extension](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker).
+Although it can probably be used with a lot of other tools as well.
 
-## Roadmap
-If you have ideas for releases in the future, it is a good idea to list them in the README.
 
-## Contributing
-State if you are open to contributions and what your requirements are for accepting them.
+### VSCode extension instructions
 
-For people who want to make changes to your project, it's helpful to have some documentation on how to get started. Perhaps there is a script that they should run or some environment variables that they need to set. Make these steps explicit. These instructions could also be useful to your future self.
+With the extension installed and this repo cloned,
+add the following to your settings JSON (workspace or user settings):
 
-You can also document commands to lint the code or run tests. These steps help to ensure high code quality and reduce the likelihood that the changes inadvertently break something. Having instructions for running tests is especially helpful if it requires external setup, such as starting a Selenium server for testing in a browser.
+```json
+"settings": {
+    "cSpell.customDictionaries": {
+        "fpga-spelling-axi": {
+            "path": "${workspaceFolder}/../../fpga-spelling/fpga-spelling/axi.txt"
+        },
+        "fpga-spelling-axi-stream": {
+            "path": "${workspaceFolder}/../../fpga-spelling/fpga-spelling/axi_stream.txt"
+        },
+        "fpga-spelling-common": {
+            "path": "${workspaceFolder}/../../fpga-spelling/fpga-spelling/common.txt"
+        },
+        "fpga-spelling-electrical": {
+            "path": "${workspaceFolder}/../../fpga-spelling/fpga-spelling/electrical.txt"
+        },
+        "fpga-spelling-other": {
+            "path": "${workspaceFolder}/../../fpga-spelling/fpga-spelling/other.txt"
+        },
+        "fpga-spelling-tools": {
+            "path": "${workspaceFolder}/../../fpga-spelling/fpga-spelling/tools.txt"
+        },
+        "fpga-spelling-vhdl": {
+            "path": "${workspaceFolder}/../../fpga-spelling/fpga-spelling/vhdl.txt"
+        },
+        "fpga-spelling-xilinx": {
+            "path": "${workspaceFolder}/../../fpga-spelling/fpga-spelling/xilinx.txt"
+        },
+    },
+},
+```
 
-## Authors and acknowledgment
-Show your appreciation to those who have contributed to the project.
+Note that you might have to modify the paths depending on your repository/workspace structure.
 
-## License
-For open source projects, say how it is licensed.
+At this point are free to exclude dictionaries.
+If you for example don't want the VHDL or "other" terms,
+then those entries can simply be removed from the JSON.
 
-## Project status
-If you have run out of energy or time for your project, put a note at the top of the README saying that development has slowed down or stopped completely. Someone may choose to fork your project or volunteer to step in as a maintainer or owner, allowing your project to keep going. You can also make an explicit request for maintainers.
+
+
+## Additions/contributions
+
+Contributions and additions are very welcome.
+Add the word(s) that you are missing to the appropriate `.txt` file and create a pull request here
+on github.
+
+In order to keep everything in order, words shall be in all lowercase, and sorted alphabetically.
+In VSCode you can select everything (Ctrl-A) and use the `Transform to lowercase` and
+`Sort lines ascending` commands:
+
+![to lowercase](doc/to_lowercase.png)
+
+![sort words](doc/sort.png)
