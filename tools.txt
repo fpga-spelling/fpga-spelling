@@ -1,3 +1,5 @@
+addrs
+asplund
 ghdl
 gitter
 lukas
@@ -8,3 +10,5 @@ petalinux
 truestream
 tsfpga
 vunit
+wavedrom
+wpulse
