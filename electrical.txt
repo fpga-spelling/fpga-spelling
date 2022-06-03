@@ -1,4 +1,9 @@
+backplane
+gpio
+jtag
+leds
 mdio
+mdio
+perstn
 pulldown
 pullup
-leds
