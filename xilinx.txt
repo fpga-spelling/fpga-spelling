@@ -12,6 +12,7 @@ lutrom
 luts
 mmcm
 obuf
+oddr
 odiv
 pynq
 qpll

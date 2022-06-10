@@ -1,4 +1,5 @@
 backplane
+datasheet
 gpio
 jtag
 leds
