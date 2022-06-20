@@ -1,10 +1,13 @@
 backplane
 datasheet
+gmii
 gpio
 jtag
 leds
 mdio
 mdio
+mosi
 perstn
 pulldown
 pullup
+xgmii

@@ -43,6 +43,7 @@ strobing
 synthesizable
 testbench
 testbenches
+unbuffered
 upconversion
 upconverter
 upconverting

@@ -6,11 +6,13 @@ gtpowergood
 gtrefclk
 gtye
 ibufds
+iobuf
 lutram
 lutrams
 lutrom
 luts
 mmcm
+mmcme
 obuf
 oddr
 odiv
