@@ -1,12 +1,14 @@
 acks
 appender
 backpressure
+bitgen
 bitmask
 bitmasks
 bitstream
 combinatorially
 deallocate
 deallocated
+demuxed
 downconversion
 downconverter
 downconverting

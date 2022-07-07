@@ -1,5 +1,7 @@
 backplane
 datasheet
+demultiplexer
+demux
 gmii
 gpio
 jtag
@@ -10,4 +12,6 @@ mosi
 perstn
 pulldown
 pullup
+sclk
+sgmii
 xgmii

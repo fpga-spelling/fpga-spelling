@@ -1,5 +1,6 @@
 artix
 artyz
+bootgen
 bram
 bufg
 gtpowergood
@@ -7,6 +8,7 @@ gtrefclk
 gtye
 ibufds
 iobuf
+kintex
 lutram
 lutrams
 lutrom
