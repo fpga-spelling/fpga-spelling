@@ -24,10 +24,14 @@ ramb
 refclk
 retarget
 secureip
+simlib
 srls
 sysmon
 ultrascale
+unifast
+unimacro
 unisim
+unisims
 uram
 vcomp
 vcomponents

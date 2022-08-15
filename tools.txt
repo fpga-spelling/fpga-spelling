@@ -1,12 +1,17 @@
 addrs
+aldec
 asplund
 ghdl
 gitter
 lukas
 mcode
 modelsim
+modeltech
 osvvm
 petalinux
+questa
+questasim
+rivierapro
 truestream
 tsfpga
 vunit
