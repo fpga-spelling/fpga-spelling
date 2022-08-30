@@ -3,6 +3,7 @@ aldec
 asplund
 ghdl
 gitter
+gtkwave
 lukas
 mcode
 modelsim
