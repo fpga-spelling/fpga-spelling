@@ -3,6 +3,7 @@ aldec
 asplund
 ghdl
 gitter
+graphviz
 gtkwave
 lukas
 mcode
@@ -13,8 +14,10 @@ petalinux
 questa
 questasim
 rivierapro
+symbolator
 truestream
 tsfpga
 vunit
 wavedrom
 wpulse
+yocto
