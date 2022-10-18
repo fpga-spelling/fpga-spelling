@@ -36,6 +36,7 @@ prefetching
 prepended
 prepender
 regs
+resetn
 resynced
 resyncing
 splitted

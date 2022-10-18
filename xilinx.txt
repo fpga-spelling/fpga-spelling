@@ -6,8 +6,12 @@ bufg
 gtpowergood
 gtrefclk
 gtye
+ibuf
 ibufds
+icap
+icape
 iobuf
+iprog
 kintex
 lutram
 lutrams
@@ -26,6 +30,8 @@ retarget
 secureip
 simlib
 srls
+startupe2
+startupe3
 sysmon
 ultrascale
 unifast

@@ -11,6 +11,7 @@ arqos
 arready
 arregion
 arsize
+aruser
 arvalid
 awaddr
 awburst
@@ -23,11 +24,13 @@ awqos
 awready
 awregion
 awsize
+awuser
 awvalid
 axlen
 bready
 bresp
 bufferable
+buser
 bvalid
 cacheable
 decerr
@@ -37,10 +40,12 @@ rdata
 rlast
 rready
 rresp
+ruser
 rvalid
 slverr
 wdata
 wlast
 wready
 wstrb
+wuser
 wvalid

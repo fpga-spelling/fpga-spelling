@@ -14,6 +14,7 @@ petalinux
 questa
 questasim
 rivierapro
+sigasi
 symbolator
 truestream
 tsfpga
