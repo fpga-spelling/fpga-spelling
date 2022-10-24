@@ -101,7 +101,7 @@ add the following to your settings JSON (workspace or user settings):
 
 Note that you might have to modify the paths depending on your repository/workspace structure.
 
-At this point are free to exclude dictionaries.
+Feel free to exclude dictionaries as well.
 If you for example don't want the VHDL or "other" terms,
 then those entries can simply be removed from the JSON.
 
