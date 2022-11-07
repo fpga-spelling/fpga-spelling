@@ -5,6 +5,7 @@ ghdl
 gitter
 graphviz
 gtkwave
+isort
 lukas
 mcode
 modelsim

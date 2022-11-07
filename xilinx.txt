@@ -3,6 +3,7 @@ artyz
 bootgen
 bram
 bufg
+chipscope
 gtpowergood
 gtrefclk
 gtye

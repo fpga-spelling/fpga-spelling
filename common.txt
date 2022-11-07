@@ -46,6 +46,7 @@ strobing
 synthesizable
 testbench
 testbenches
+tpid
 unbuffered
 upconversion
 upconverter

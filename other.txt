@@ -5,11 +5,13 @@ choosable
 commited
 dockerhub
 dont
+ethertype
 mutex
 pylint
 pytest
 pythonpath
 rankdir
 scipy
+tftpboot
 tomlkit
 unsubscriptable
