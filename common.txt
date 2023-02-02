@@ -24,6 +24,7 @@ msbs
 mtbf
 muxed
 muxes
+nand
 netlist
 netlists
 parameterizable
