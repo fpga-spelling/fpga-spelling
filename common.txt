@@ -18,6 +18,7 @@ downsampling
 endianness
 fanout
 fifos
+fixpoint
 gbps
 interpacket
 interruptible
@@ -53,8 +54,8 @@ unbuffered
 upconversion
 upconverter
 upconverting
-upsampling
 upsample
 upsampled
+upsampling
 verilog
 vhdl

@@ -9,9 +9,11 @@ leds
 mdio
 mdio
 mosi
+passband
 perstn
 pulldown
 pullup
 sclk
 sgmii
+stopband
 xgmii
