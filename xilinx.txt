@@ -12,6 +12,7 @@ ibufds
 icap
 icape
 iobuf
+iostandard
 iprog
 kintex
 lutram
@@ -21,6 +22,9 @@ luts
 mmcm
 mmcme
 obuf
+obufds
+obuft
+obuftds
 oddr
 odiv
 pynq

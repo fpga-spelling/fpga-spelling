@@ -12,6 +12,8 @@ demuxed
 downconversion
 downconverter
 downconverting
+downsample
+downsampled
 downsampling
 endianness
 fanout
@@ -52,5 +54,7 @@ upconversion
 upconverter
 upconverting
 upsampling
+upsample
+upsampled
 verilog
 vhdl

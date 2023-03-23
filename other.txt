@@ -1,13 +1,16 @@
 agnostically
 barebone
 behavedness
+bibtex
 choosable
 commited
 dockerhub
 dont
 ethertype
+matplotlib
 mutex
 pylint
+pylintrc
 pytest
 pythonpath
 rankdir
