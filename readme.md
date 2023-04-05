@@ -1,5 +1,7 @@
 # FPGA spell checking dictionary
 
+![banner](doc/banner.png)
+
 Dictionary with common FPGA terms, to be used with spell checking software.
 
 
