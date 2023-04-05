@@ -2,8 +2,8 @@
 
 ![banner](doc/banner.png)
 
-Dictionary with common FPGA terms, to be used with spell checking software.
-
+Dictionary with common FPGA terms, for use with spell checking software.
+To avoid false negatives on common FPGA terms that are not available in the standard English dictionary.
 
 
 ## Contents
