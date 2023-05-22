@@ -9,6 +9,7 @@ dont
 ethertype
 matplotlib
 mutex
+pmod
 pylint
 pylintrc
 pytest

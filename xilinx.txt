@@ -19,6 +19,7 @@ lutram
 lutrams
 lutrom
 luts
+lvcmos
 mmcm
 mmcme
 obuf
