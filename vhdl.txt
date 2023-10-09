@@ -3,3 +3,4 @@ inout
 sfixed
 ufixed
 ulogic
+xnor

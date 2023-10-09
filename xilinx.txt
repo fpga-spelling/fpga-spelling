@@ -3,6 +3,7 @@ artyz
 bootgen
 bram
 bufg
+bufgce
 chipscope
 gtpowergood
 gtrefclk
@@ -28,6 +29,7 @@ obuft
 obuftds
 oddr
 odiv
+pulltype
 pynq
 qpll
 ramb
