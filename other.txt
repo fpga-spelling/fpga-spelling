@@ -2,6 +2,7 @@ agnostically
 barebone
 behavedness
 bibtex
+cheby
 choosable
 commited
 dockerhub
@@ -15,8 +16,11 @@ pylintrc
 pytest
 pythonpath
 rankdir
+rggen
+rtoml
 scipy
 tftpboot
 tomlkit
 tpid
 unsubscriptable
+vhdmmio
