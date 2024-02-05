@@ -1,4 +1,5 @@
 downto
+hstring
 inout
 sfixed
 ufixed

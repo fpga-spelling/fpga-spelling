@@ -36,6 +36,7 @@ ramb
 refclk
 retarget
 secureip
+shreg
 simlib
 srls
 startupe2
