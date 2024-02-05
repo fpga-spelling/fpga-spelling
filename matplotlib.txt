@@ -1,0 +1,10 @@
+axhline
+figsize
+horizontalalignment
+linestyle
+nrows
+rowspan
+verticalalignment
+xaxis
+xlim
+ylabel

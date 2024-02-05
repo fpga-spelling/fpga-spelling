@@ -18,7 +18,6 @@ pythonpath
 rankdir
 rggen
 rtoml
-scipy
 tftpboot
 tomlkit
 tpid
