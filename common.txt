@@ -32,6 +32,7 @@ nand
 netlist
 netlists
 parameterizable
+parameterizing
 partitioner
 playout
 prefetch
