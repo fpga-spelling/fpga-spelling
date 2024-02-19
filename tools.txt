@@ -11,13 +11,13 @@ mcode
 modelsim
 modeltech
 osvvm
+peakrdl
 petalinux
 questa
 questasim
 rivierapro
 sigasi
 symbolator
-truestream
 tsfpga
 vunit
 wavedrom

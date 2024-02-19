@@ -1,10 +1,14 @@
 axhline
+axvline
 figsize
 horizontalalignment
 linestyle
+linewidth
 nrows
 rowspan
 verticalalignment
 xaxis
 xlim
 ylabel
+xticks
+yticks
