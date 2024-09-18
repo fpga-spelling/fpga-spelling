@@ -49,6 +49,7 @@ strb
 strobed
 strobing
 synthesizable
+systemverilog
 testbench
 testbenches
 unbuffered
