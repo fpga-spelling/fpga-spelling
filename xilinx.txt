@@ -50,6 +50,7 @@ unisims
 uram
 vcomp
 vcomponents
+vitis
 vivado
 vpkg
 zynq
