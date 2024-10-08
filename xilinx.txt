@@ -4,6 +4,7 @@ bootgen
 bram
 bufg
 bufgce
+bufh
 chipscope
 gtpowergood
 gtrefclk
