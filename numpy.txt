@@ -1,3 +1,7 @@
+arange
 argmax
 astype
+dtype
+loadtxt
 ndarray
+numpy
