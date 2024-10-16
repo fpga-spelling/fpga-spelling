@@ -5,3 +5,5 @@ dtype
 loadtxt
 ndarray
 numpy
+skiprows
+usecols
