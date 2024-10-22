@@ -2,8 +2,10 @@ arange
 argmax
 astype
 dtype
+frombuffer
 loadtxt
 ndarray
 numpy
 skiprows
+tobytes
 usecols
