@@ -4,6 +4,7 @@ datasheet
 demultiplexer
 demux
 gmii
+gpib
 gpio
 jtag
 leds
