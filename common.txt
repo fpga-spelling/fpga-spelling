@@ -52,6 +52,7 @@ synthesizable
 systemverilog
 testbench
 testbenches
+twophase
 unbuffered
 upsample
 upsampled
