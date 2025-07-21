@@ -1,11 +1,14 @@
 addrs
 aldec
 asplund
+cocotb
+cocotbext
 ghdl
 gitter
 graphviz
 gtkwave
 isort
+iverilog
 lukas
 mcode
 modelsim

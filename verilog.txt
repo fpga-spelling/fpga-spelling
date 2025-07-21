@@ -1,0 +1,11 @@
+dumpfile
+dumpvars
+endcase
+endmodule
+endtask
+localparam
+negedge
+posedge
+timeformat
+timeprecision
+timeunit
